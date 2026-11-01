@@ -192,27 +192,6 @@ export const EXPERIENCE = [
     tags: ["Model UN", "International Relations", "Policy"],
     featured: false,
   },
-  {
-    slug: "community-service-initiatives",
-    role: "Organizer & Volunteer",
-    org: "Various Community Initiatives",
-    logo: "",
-    location: "Chhatrapati Sambhajinagar, Maharashtra, India",
-    dates: "2024 – Present",
-    meta: "Maharashtra, India · 30+ Students Tutored · ₹65,000 Raised · 25–30 Farming Families Supported ·",
-    badge: "Service",
-    desc: "Led and participated in community and social impact initiatives spanning academic tutoring, fundraising, heritage cleanups, art mentorship, road-safety education, and animal welfare.",
-    bullets: [
-      "Tutored 30+ students in Grades 5–7 in mathematics, science, and English over 6–7 months",
-      "Canvassed 150+ households, raising approximately ₹65,000 plus ₹30,000 worth of equipment and supporting 25–30 farming families",
-      "Taught Grades 3–6 about traffic signs, pedestrian safety, and safe travel habits",
-      "Led drawing and visual-arts sessions for children at an orphanage",
-      "Participated in litter removal at Ellora Caves and co-founded a neighborhood plogging group",
-      "Helped organize charity carnivals and essential-ration drives, and supported stray-animal care",
-    ],
-    tags: ["Community Service", "Tutoring", "Fundraising", "Art Mentorship"],
-    featured: false,
-  },
 ];
 
 /* ---- Engineering projects (renders as "Featured Projects") ---- */
