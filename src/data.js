@@ -9,7 +9,7 @@ export const PROFILE = {
   fullName: "Shaurya Zanwar",
   tagline: "Student | Engineer | Athlete | Builder",
   location: "Chhatrapati Sambhajinagar, Maharashtra",
-  email: "",
+  email: "shauryazanwar1@gmail.com",
   phone: "",
   bio: [
     "I'm an IB Diploma student at Fountainhead Wockhardt Global School in Chhatrapati Sambhajinagar, Maharashtra, graduating in May 2027. I study Mathematics AA, Physics, and Business Management at Higher Level, and Chemistry, English Language & Literature, and Hindi B at Standard Level. I intend to pursue civil engineering, and I'm drawn to infrastructure, manufacturing, and practical engineering — ideas I can build, test, and refine.",
@@ -26,7 +26,7 @@ export const PROFILE = {
     wespa: "",
     twitter: "",
   },
-  cv: "/cv.pdf",
+  cv: "/placeholder.pdf",
   photo: "/photo.jpg",
   aboutPhoto: "/about-photo.jpg",
 };
@@ -93,11 +93,11 @@ export const EXPERIENCE = [
     logo: "",
     location: "Chhatrapati Sambhajinagar, Maharashtra, India",
     dates: "2026 – Present",
-    meta: "2026 – Present · Chhatrapati Sambhajinagar, India ·",
+    meta: "2026 – Present · 40-Member Council · 300+ Students Represented ·",
     badge: "Elected",
-    desc: "President of the student body, representing students and leading the student council across welfare, peer academic support, and school events.",
+    desc: "President of the student body, representing 300+ students and leading a 40-member student council across welfare, peer academic support, and school events.",
     bullets: [
-      "Represents students and chairs student council meetings",
+      "Represents 300+ students and chairs meetings of a 40-member student council",
       "Coordinates student welfare, peer academic support, and school events",
       "Previously served as Deputy House Captain (Grade 9), House Captain (Grade 10), and Sports Captain (Grade 11)",
     ],
@@ -192,6 +192,27 @@ export const EXPERIENCE = [
     tags: ["Model UN", "International Relations", "Policy"],
     featured: false,
   },
+  {
+    slug: "community-service-initiatives",
+    role: "Organizer & Volunteer",
+    org: "Various Community Initiatives",
+    logo: "",
+    location: "Chhatrapati Sambhajinagar, Maharashtra, India",
+    dates: "2024 – Present",
+    meta: "Maharashtra, India · 30+ Students Tutored · ₹65,000 Raised · 25–30 Farming Families Supported ·",
+    badge: "Service",
+    desc: "Led and participated in community and social impact initiatives spanning academic tutoring, fundraising, heritage cleanups, art mentorship, road-safety education, and animal welfare.",
+    bullets: [
+      "Tutored 30+ students in Grades 5–7 in mathematics, science, and English over 6–7 months",
+      "Canvassed 150+ households, raising approximately ₹65,000 plus ₹30,000 worth of equipment and supporting 25–30 farming families",
+      "Taught Grades 3–6 about traffic signs, pedestrian safety, and safe travel habits",
+      "Led drawing and visual-arts sessions for children at an orphanage",
+      "Participated in litter removal at Ellora Caves and co-founded a neighborhood plogging group",
+      "Helped organize charity carnivals and essential-ration drives, and supported stray-animal care",
+    ],
+    tags: ["Community Service", "Tutoring", "Fundraising", "Art Mentorship"],
+    featured: false,
+  },
 ];
 
 /* ---- Engineering projects (renders as "Featured Projects") ---- */
@@ -201,7 +222,7 @@ export const PROJECTS = [
     name: "MAXUS Fitness — Adjustable Dumbbell & Kettlebell System",
     org: "Founder & Product Lead",
     meta: "2025 – Present",
-    desc: "Designed an adjustable dumbbell and kettlebell system with interchangeable plates and a total capacity of 40 kg. Led CAD modelling, sand-casting mould design, recycled-metal casting, and prototyping, building the prototype for approximately ₹5,000. Tested durability through 50 drops from 1.5 m, assessed corrosion resistance over two months in humid Mumbai conditions, and collected feedback from 15 peers to inform product improvements.",
+    desc: "Designed an adjustable dumbbell and kettlebell system with interchangeable plates and a total capacity of 40 kg. Led CAD modelling, sand-casting mould design, recycled-metal casting, and prototyping, building the prototype for approximately ₹5,000. Sold 7 sets, generating approximately ₹50,000 in revenue. Tested durability through 50 drops from 1.5 m, assessed corrosion resistance over two months in humid Mumbai conditions, and collected feedback from 15 peers to inform product improvements.",
     tags: ["Entrepreneurship", "Hardware Development", "CAD", "Sand Casting"],
     featured: true,
   },
@@ -277,8 +298,8 @@ export const AWARDS = [
   {
     icon: "",
     title: "Tennis Nationals — Bronze Medal",
-    meta: "AITA · Asian Junior Circuit · ISSO",
-    detail: "Earned a national bronze medal, competing in AITA Championship Series events, Asian junior events, and ISSO Nationals with 15+ hours of weekly training.",
+    meta: "AITA · Asian Junior Circuit · ISSO · 20+ National Events",
+    detail: "Earned a national bronze medal, competing in 20+ national events — including AITA Championship Series events and ISSO Nationals — and 2 Asian junior tournaments, with 18 hours of weekly training.",
     link: "",
     featured: true,
   },
@@ -316,9 +337,9 @@ export const AWARDS = [
   },
   {
     icon: "",
-    title: "Door-to-Door Charity Fundraiser — ₹15,000 Raised",
-    meta: "Community Initiative · 150+ Households",
-    detail: "Canvassed 150+ households in Chhatrapati Sambhajinagar and raised approximately ₹15,000 for local welfare organizations.",
+    title: "Grassroots Charity Fundraiser — ₹65,000 Raised",
+    meta: "Community Initiative · 150+ Households · 25–30 Farming Families",
+    detail: "Canvassed 150+ households in Chhatrapati Sambhajinagar, raising approximately ₹65,000 plus ₹30,000 worth of equipment, and supporting 25–30 farming families.",
     link: "",
     featured: false,
   },
@@ -364,9 +385,9 @@ export const VOLUNTEER = {
       desc: "Tutored 30+ students in Grades 5–7 in mathematics, science, and English over 6–7 months through individual and small-group support.",
     },
     {
-      name: "Door-to-Door Charity Fundraiser",
+      name: "Grassroots Charity Fundraiser",
       role: "Fundraiser · Since 2024",
-      desc: "Canvassed 150+ households in Chhatrapati Sambhajinagar and raised approximately ₹15,000 for local welfare organizations.",
+      desc: "Canvassed 150+ households in Chhatrapati Sambhajinagar, raising approximately ₹65,000 plus ₹30,000 worth of equipment, and supporting 25–30 farming families.",
     },
     {
       name: "Orphanage Fine-Arts Mentorship",
@@ -407,7 +428,7 @@ export const SPORTS = [
   {
     icon: "",
     name: "Tennis",
-    desc: "Competitive tennis player since 2019, training 15+ hours per week. Competed in AITA Championship Series events, Asian junior events, and ISSO Nationals. Achievement: National bronze medal.",
+    desc: "Competitive tennis player since 2019, training 18 hours per week. Competed in 20+ national events — including AITA Championship Series events and ISSO Nationals — and 2 Asian junior tournaments. Achievement: National bronze medal.",
   },
   {
     icon: "",
@@ -517,3 +538,4 @@ export const FOOTER_NAV = [
 export const FOOTER_PROFILES = [
   { label: "LinkedIn", href: PROFILE.socials.linkedin },
 ];
+ 
